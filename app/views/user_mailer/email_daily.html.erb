@@ -1,13 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css" media="screen">
+      h3 { color: #f00; }
+      p { color: #004D40;}
+      li { color: #E65D64;}
+    </style>
+</head>
 <body>
-<h3> Bloom </h3>
-<p> You're one day closer to being a Junior Developer, keep it up! </p> <br> <br>
-<p> Here are some handpicked, super useful resources to help you focus on <%= "#{@lowest_skill}" %>. </p> <br>
-<ul>
-  <li> <%="#{@links[3]}"%> </li>
-  <li> <%="#{@links[5]}"%> </li>
-  <li> <%="#{@links[7]}"%> </li>
-</ul> <br>
-<p> Don't forget to update your confidence ratings at the end of the day: <%= @confidence_link_url %> </p> <br>
-<p> Good luck, from the Bloom team. </p>
-<p id="quote"> “They tried to bury us. They didn’t know we were seeds.” </p>
-<body>
+
+  <img src="http://i.imgur.com/PRtTFssl.png">
+  <p><b> You're one day closer to being a Junior Developer, keep it up! </b></p> <br>
+  <p> Here are some handpicked, super useful resources to help you focus on <%= "#{@lowest_skill}" %>. </p> <br>
+  <ul>
+    <li> <%="#{@links[3]}"%> </li>
+    <li> <%="#{@links[5]}"%> </li>
+    <li> <%="#{@links[7]}"%> </li>
+  </ul> <br>
+
+  <p> Don't forget to update your confidence ratings at the end of the day: <%= @confidence_link_url %> </p> <br>
+  <p> <b>Good luck, from the Bloom team. </b></p>
+  <p id="quote"><i> “They tried to bury us. They didn’t know we were seeds.” </i></p>
+</body>
+</html>
