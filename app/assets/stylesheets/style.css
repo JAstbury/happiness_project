@@ -42,10 +42,12 @@ table {
 }
 
 .confidence {
-  background-color: #e7e7e7;
+  background-color: #F8F8FF;
   width: 70%;
   margin: auto;
   padding-bottom: 30px;
+  opacity: 0.9;
+  border-radius: 25px;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -162,7 +164,7 @@ tr td:hover { background: #666; color: #FFF; } /* Hover cell effect! */
     width: 7%;
     display: inline-block;
     position: absolute;
-    left: 500px;
+    left: 400px;
 }
 
 #quote {
