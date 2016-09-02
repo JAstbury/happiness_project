@@ -26,7 +26,7 @@ if Link.count.zero?
 
 
   Link.all.each do |link|
-    link.start_mechanize('https://google.co.uk')
+    link.start_mechanize('https://google.co.uk/video')
     link.search_skill(link)
   end
 end
