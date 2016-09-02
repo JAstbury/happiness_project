@@ -31,6 +31,10 @@ table {
   height: 100%;
 }
 
+.blurb {
+  font-style: italic;
+}
+
 .sign_up {
   background-color: #e7e7e7;
   width: 20%;
